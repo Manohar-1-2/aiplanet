@@ -1,0 +1,9 @@
+endpoints:
+    /pdfupload
+    /ws/{filename}
+
+/pdfupload:
+    upload pdf file in get requst
+
+/ws/{filename}:
+    connect websocket using valid filename

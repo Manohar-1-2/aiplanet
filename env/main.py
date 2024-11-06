@@ -10,6 +10,7 @@ from ratelimiting.ratelimiting import RateLimitMiddleware
 from llama_index.core import Settings
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
+import json
 
 Settings.llm = None 
 # Configure LlamaIndex settings
